@@ -1,0 +1,35 @@
+.grid-main {
+  display: grid;
+  place-content: center;
+  grid-template-areas:
+    "chiffres signe";
+  grid-template-columns: 300px 100px;
+  grid-template-rows: 400px;
+  gap: 5px;
+}
+.grid-chiffres {
+  grid-area: chiffres;
+}
+
+.grid-chiffres {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.grid-signe {
+  grid-area: signe;
+}
+
+.grid-signe {
+  display: grid;
+}
+.grid-ACDEL {
+display: grid;
+grid-template-columns: 200px 200px;
+}
+
+.grid-affichage{
+  position: static;
+  font-size: 2rem;
+  text-align: right;
+}
